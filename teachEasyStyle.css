@@ -1,0 +1,27 @@
+/*Teach Easy Style Sheet*/
+
+body{
+	background-color: rgba(0, 204, 255,.5);
+}
+
+.navbar{
+	background-image: url("pencil.png");
+	background-repeat: no-repeat;
+	min-height: 140px;
+	margin: 1%;
+}
+
+.navbar #navButtonContainer{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 2%;
+	align-items: center;
+}
+
+.navbar #navButtons{
+	font-size: 30px;
+	background: none;
+	border: none;
+}
